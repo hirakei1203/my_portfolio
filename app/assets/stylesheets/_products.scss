@@ -6,19 +6,21 @@
 .header_box{
   height: 100px;
   &__title{
-    width: 400px;
+    display: inline-block;
+    font-size: 30px;
   }
   &__link_wrapper{
     display: flex;
     float: right;
+    font-size: 20px;
     &__admin-login{
-      margin-left: 5%;
+      margin-left: 30px;
     }
     &__wantedly{
-      margin-left: 5%;
+      margin-left: 30px;
     }
     &__contact{
-      margin-left: 5%;
+      margin-left: 30px;
     }
 
 
