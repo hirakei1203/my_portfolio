@@ -7,12 +7,14 @@
   height: 100px;
   &__title{
     display: inline-block;
-    font-size: 30px;
+    font-size: 50px;
+    padding-top: 10px;
   }
   &__link_wrapper{
     display: flex;
     float: right;
     font-size: 20px;
+    padding-top: 60px;
     &__admin-login{
       margin-left: 30px;
     }
@@ -21,6 +23,7 @@
     }
     &__contact{
       margin-left: 30px;
+      margin-right: 20px;
     }
 
 
@@ -28,7 +31,7 @@
 }
 
 .main_box{
-  padding-top: 15%;
+  // padding-top: 15%;
   background-image: url('/images/background5.jpg');
   background-size: cover;
   height: 800px;
