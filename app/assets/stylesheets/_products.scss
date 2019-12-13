@@ -4,7 +4,7 @@
 
 
 .header_box{
-  height: 100px;
+  height: 90px;
   background-color: lightblue;
   &__title{
     display: inline-block;
@@ -15,7 +15,7 @@
     display: flex;
     float: right;
     font-size: 20px;
-    padding-top: 60px;
+    padding-top: 50px;
     &__admin-login{
       margin-left: 35px;
     }
