@@ -37,4 +37,19 @@
   background-size: cover;
   height: 800px;
   width: 100%;
+  &__content_area{
+      padding: 5vh 0 0 8vh;
+      display: flex;
+  }
+}
+
+.content-box{
+  height: 45vh;
+  width: 45vh;
+  background-color: lightgreen;
+  opacity: 0.5;
+  &__title{
+
+  }
+
 }
