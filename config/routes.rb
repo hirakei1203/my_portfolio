@@ -4,4 +4,8 @@ Rails.application.routes.draw do
 
   root 'products#index'
 
+  namespace :admin do
+    resources :products, only: [:new, :create, :destroy]
+  end
+  
 end

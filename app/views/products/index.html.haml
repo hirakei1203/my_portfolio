@@ -1,11 +1,11 @@
 
 
 .header_area
-  = render 'layouts/header'
+  = render 'layouts/header' 
 
 .main_box
   .main_box__content_area
-    = render 'layouts/content'
+    = render 'layouts/content', collection: @products
     -# 部分テンプレート先に、インスタンス変数導入後にeach構文を入れること
 
     = render 'layouts/content'

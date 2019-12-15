@@ -24,6 +24,9 @@
     bottom: 0;
     &__admin-login{
       margin-left: 35px;
+      .new_product_link{
+        padding-left: 3vh;
+      }
     }
     &__wantedly{
       margin-left: 35px;
@@ -73,8 +76,12 @@
 }
 
 .footer_box{
-  height: 8vh;
+  height: 12vh;
+  position: relative;
+  background-color:black;
   ul {
+    margin: 0;
+    padding-top: 3vh;
     list-style: none;
     display: flex;
     justify-content: center; 
@@ -113,11 +120,17 @@
   .fonts2{
     padding-left: 15px;
   }
-  .fonts3{
-    
+  .fonts3{ 
     padding-left: 14px;
   }
   &__right {
+    position: absolute;
+    right: 0;
+    top: 3vh;
     float: right;
+    color: white;
+    opacity:0.1;
   }
 }
+
+

@@ -4,10 +4,13 @@
   .header_box__title
     Portfolio of Keitaro Hirano
   .header_box__link_wrapper
-    -# -if current_user == 管理者
-    -# ログインのリンクは残しては置けん＝直接リンクや
     .header_box__link_wrapper__admin-login
-      Admin in&out
+      -if user_signed_in?
+        -if current_user.id == 1
+          =link_to destroy_user_session_path, method: :delete do
+            signed out
+          =link_to new_admin_product_path, class: "new_product_link" do
+            add new product!
     .header_box__link_wrapper__wantedly
       Wantedly
     .header_box__link_wrapper__contact
