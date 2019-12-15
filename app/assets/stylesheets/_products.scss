@@ -51,7 +51,7 @@
 }
 
 .content-box{
-  height: 45vh;
+  height: 40vh;
   width: 45vh;
   background-color: lightgreen;
   opacity: 0.5;
@@ -69,5 +69,37 @@
   transition: 0.8s;
   opacity: 0;
   &__title{
+  }
+}
+
+.footer_box{
+  height: 8vh;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    .list1{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: lightcyan;
+    }
+    .list2{
+      margin-left: 3vh;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: lightsalmon;
+    }
+    .list3{
+      margin-left: 3vh;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: lightseagreen;
+    }
+  }
+  &__right {
+    float: right;
   }
 }
