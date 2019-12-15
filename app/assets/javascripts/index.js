@@ -12,6 +12,12 @@ $(function(){
     }
   })
 
-  
+  $(window).scroll(function(){  
+    let menuHeight = $(".header-box").height();
+    let stattPos = 0;
+    let currentPos = $(window).scrollTop();
+    if (currentPos > startPos) {
+      if 
+    }
 
 })
