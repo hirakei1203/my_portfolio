@@ -36,7 +36,7 @@
   height: 800px;
   width: 100%;
   &__content_area{
-      padding: 8vh 8vh 0 8vh;
+      padding: 5vh 8vh 0 8vh;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row-reverse;
@@ -49,6 +49,7 @@
   width: 45vh;
   background-color: lightgreen;
   opacity: 0.5;
+  margin-top: 3vh;
   &__title{
 
   }
