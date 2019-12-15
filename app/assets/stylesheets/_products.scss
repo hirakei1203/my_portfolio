@@ -78,26 +78,44 @@
     list-style: none;
     display: flex;
     justify-content: center; 
-    .list1{
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      background-color: lightcyan;
+    .lists-change:hover{
+      background-color: orangered;
     }
-    .list2{
-      margin-left: 3vh;
-      height: 60px;
-      width: 60px;
+    .list1{
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
       background-color: lightsalmon;
     }
+    .list2{
+      margin-left: 3vh;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: lightskyblue;
+    }
     .list3{
       margin-left: 3vh;
-      height: 60px;
-      width: 60px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
       background-color: lightseagreen;
     }
+  }
+  .font-property{
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .fonts1{
+    padding-left: 12px;
+  }
+  .fonts2{
+    padding-left: 15px;
+  }
+  .fonts3{
+    
+    padding-left: 14px;
   }
   &__right {
     float: right;
