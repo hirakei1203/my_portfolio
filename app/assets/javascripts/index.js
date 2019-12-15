@@ -12,12 +12,19 @@ $(function(){
     }
   })
 
+  // 一定量をスクロールした際にheaderを隠す
   $(window).scroll(function(){  
-    let menuHeight = $(".header-box").height();
-    let stattPos = 0;
+    let menuHeight = $('.header_box').height();
+    let startPos = 0;
     let currentPos = $(window).scrollTop();
     if (currentPos > startPos) {
-      if 
-    }
-
-})
+      if($(window).scrollTop() >= 40){
+        $('.header_box').css("top", "-12vh");
+        console.log('hello');
+      } else {
+      $(".header_box").css("top", "0px");
+      }
+      startPos = currentPos;
+    };
+  });
+});
