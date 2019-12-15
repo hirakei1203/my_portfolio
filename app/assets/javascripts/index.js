@@ -11,10 +11,5 @@ $(function(){
     if (scroll > imgPos - windowHeight + windowHeight/5){
       $('.content-box2').css("opacity", 0.5);
     }
-    else {
-      $('.content-box2').css("opacity", 0);
-      console.log("erase");
-    }
-
   })
 })
