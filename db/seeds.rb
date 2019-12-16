@@ -22,3 +22,13 @@ Product.create!(
   language: "Ruby",
   technique: "Ruby on rails"
 )
+
+Product.create!(
+  name: "Rintaro顔認識アプリ",
+  image: "https://gyazo.com/59b52bbb1ffc77b4380683e4c9d396a5",
+  address: "https://tranquil-gorge-10782.herokuapp.com/",
+  description: "OpenCVを使用した機械学習による顔認識アプリです",
+  status_id: 1,
+  language: "Python",
+  technique: "Flask, Anaconda"
+)
