@@ -12,3 +12,5 @@ User.create!(
   password_confirmation: "mercari62A"
   admin: true
 )
+
+
