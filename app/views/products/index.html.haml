@@ -5,7 +5,7 @@
 
 .main_box
   .main_box__content_area
-    = render 'layouts/content', collection: @products
+    = render @products
     -# 部分テンプレート先に、インスタンス変数導入後にeach構文を入れること
 
     = render 'layouts/content'
