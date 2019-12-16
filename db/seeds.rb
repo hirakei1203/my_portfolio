@@ -6,12 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# User.create!(
-#   email: "hirakei@yahoo.jp"
-#   password: "mercari62A"
-#   password_confirmation: "mercari62A"
-#   admin: true
-# )
+User.create!(
+  email: "hirakei@yahoo.jp"
+  password: "mercari62A"
+  password_confirmation: "mercari62A"
+  admin: true
+)
 
 Product.create!(
   name: "メルカリコピーサイト",
