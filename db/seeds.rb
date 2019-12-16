@@ -14,11 +14,11 @@
 # )
 
 Product.create!(
-  name: "メルカリコピーサイト"
-  image: "https://gyazo.com/ae9f791a35b7a1646780373a0fc4d9b8"
-  address: "http://13.115.135.138/"
-  description: "メルカリのコピーサイトです。6人チームで作りました"
-  status_id: 1
-  language: "Ruby"
+  name: "メルカリコピーサイト",
+  image: "https://gyazo.com/ae9f791a35b7a1646780373a0fc4d9b8",
+  address: "http://13.115.135.138/",
+  description: "メルカリのコピーサイトです。6人チームで作りました",
+  status_id: 1,
+  language: "Ruby",
   technique: "Ruby on rails"
 )
