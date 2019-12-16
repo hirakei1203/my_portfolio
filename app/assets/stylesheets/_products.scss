@@ -1,0 +1,136 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.header_box{
+  height: 12vh;
+  width:100%;
+  background-color: lightblue;
+  position: fixed;
+  z-index: 1;
+  transition: 1s;
+  &__title{
+    display: inline-block;
+    font-size: 50px;
+    padding: 1vh 0 0 1vh;
+  }
+  &__link_wrapper{
+    display: flex;
+    float: right;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    &__admin-login{
+      margin-left: 35px;
+      .new_product_link{
+        padding-left: 3vh;
+      }
+    }
+    &__wantedly{
+      margin-left: 35px;
+    }
+    &__contact{
+      margin-left: 35px;
+      margin-right: 30px;
+    }
+  }
+}
+
+.main_box{
+  padding-top: 12vh;
+  background-image: url('/images/background5.jpg');
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  &__content_area{
+      padding: 4vh 8vh 0 8vh;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+  }
+}
+
+.content-box{
+  height: 40vh;
+  width: 45vh;
+  background-color: lightgreen;
+  opacity: 0.5;
+  margin-top: 3vh;
+  &__title{
+  }
+}
+
+.content-box2{
+  height: 45vh;
+  width: 45vh;
+  background-color: lightcoral;
+  opacity: 0.5;
+  margin-top: 3vh;
+  transition: 0.8s;
+  opacity: 0;
+  &__title{
+  }
+}
+
+.footer_box{
+  height: 12vh;
+  position: relative;
+  background-color:black;
+  ul {
+    margin: 0;
+    padding-top: 3vh;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    .lists-change:hover{
+      background-color: orangered;
+    }
+    .list1{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: lightsalmon;
+    }
+    .list2{
+      margin-left: 3vh;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: lightskyblue;
+    }
+    .list3{
+      margin-left: 3vh;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: lightseagreen;
+    }
+  }
+  .font-property{
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .fonts1{
+    padding-left: 12px;
+  }
+  .fonts2{
+    padding-left: 15px;
+  }
+  .fonts3{ 
+    padding-left: 14px;
+  }
+  &__right {
+    position: absolute;
+    right: 0;
+    top: 3vh;
+    float: right;
+    color: white;
+    opacity:0.1;
+  }
+}
+
+

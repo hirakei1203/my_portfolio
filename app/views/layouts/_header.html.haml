@@ -1,0 +1,20 @@
+
+
+.header_box
+  .header_box__title
+    Portfolio of Keitaro Hirano
+  .header_box__link_wrapper
+    .header_box__link_wrapper__admin-login
+      -if user_signed_in?
+        -if current_user.id == 1
+          =link_to destroy_user_session_path, method: :delete do
+            signed out
+          =link_to new_admin_product_path, class: "new_product_link" do
+            add new product!
+    .header_box__link_wrapper__wantedly
+      Wantedly
+    .header_box__link_wrapper__contact
+      Contact
+
+
+-# link_toを貼ってください
