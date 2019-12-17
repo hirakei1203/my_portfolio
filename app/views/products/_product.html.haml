@@ -7,11 +7,12 @@
   .content-box__environment
     = "その他技術: #{product.technique}"
   .content-box__image
-    = image_tag("/#{product.image}")
+    = link_to "#{product.address}", target: :_blank, class: "content-box__address__link" do
+      = image_tag("/#{product.image}", size: '268x140', class: "content-box__image__picture")
   .content-box__description
     = "#{product.description}"
-  .content-box__address
-    = link_to "#{product.address}", "#{product.address}", target: :_blank, class: "content-box__address__link"
+  -# .content-box__address
+    
   
   
 

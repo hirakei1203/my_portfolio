@@ -15,7 +15,7 @@ User.create!(
 
 Product.create!(
   name: "Job Log",
-  image: "Job Log_image.png",
+  image: "Job_Log_image.png",
   address: "http://13.115.135.138/",
   description: "ブログ風業務改善アプリです。初アプリです！",
   status_id: 1,
@@ -27,7 +27,7 @@ Product.create!(
   name: "メルカリコピーサイト",
   image: "page_mercari2.png",
   address: "http://13.115.135.138/",
-  description: "メルカリのコピーサイトです。6人チームで作りました",
+  description: "メルカリのコピーサイトです。6人チームで作りました!",
   status_id: 1,
   language: "Ruby",
   technique: "Ruby on rails, MySQL, AWS"
