@@ -142,16 +142,19 @@
     margin-top: 2vh;
   }
   &__environment{
-
+    margin-top: 2vh;
   }
   &__image{
-
+    margin-top: 2vh;
   }
   &__description{
-
+    margin-top: 2vh;
   }
   &__address{
-
+    margin-top: 4vh;
+    &__link{
+    text-decoration: none;
+    }
   }
 
 }
