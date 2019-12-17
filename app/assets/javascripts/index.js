@@ -8,7 +8,7 @@ $(function(){
     let scroll = $(window).scrollTop();
     let windowHeight = $(window).height();
     if (scroll > imgPos - windowHeight + windowHeight/5){
-      $('.content-box2').css("opacity", 0.5);
+      $('.content-box2').css("opacity", 0.8);
     }
   })
 
@@ -20,7 +20,6 @@ $(function(){
     if (currentPos > startPos) {
       if($(window).scrollTop() >= 40){
         $('.header_box').css("top", "-12vh");
-        console.log('hello');
       } else {
       $(".header_box").css("top", "0px");
       }

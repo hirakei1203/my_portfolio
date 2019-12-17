@@ -6,7 +6,7 @@
 .header_box{
   height: 12vh;
   width:100%;
-  background-color: lightblue;
+  background-image: url('/images/sky.jpg');
   position: fixed;
   z-index: 1;
   transition: 1s;
@@ -14,6 +14,7 @@
     display: inline-block;
     font-size: 50px;
     padding: 1vh 0 0 1vh;
+    color: lightyellow;
   }
   &__link_wrapper{
     display: flex;
@@ -30,10 +31,18 @@
     }
     &__wantedly{
       margin-left: 35px;
+      margin-right: 30px;
+      color: white;
+      .wantedly-link{
+        text-decoration: none;
+        color: white;
+      }
+
     }
     &__contact{
       margin-left: 35px;
       margin-right: 30px;
+      color: white;
     }
   }
 }
@@ -57,7 +66,7 @@
   height: 40vh;
   width: 45vh;
   background-color: lightgreen;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-top: 3vh;
   &__title{
   }
@@ -74,6 +83,39 @@
   &__title{
   }
 }
+
+
+.content-box{
+  &__title{
+    margin-top: 1vh;
+  }
+  &__language{
+    margin-top: 2vh;
+  }
+  &__environment{
+    margin-top: 2vh;
+  }
+  &__image{
+    margin-top: 2vh;
+    text-align: center;
+  }
+  &__description{
+    margin-top: 2vh;
+  }
+  &__address{
+    margin-top: 3vh;
+    &__link{
+    text-decoration: none;
+    }
+  }
+}
+
+.content-box2{
+  &__title{
+    margin-top: 1vh;
+  }
+}
+
 
 .footer_box{
   height: 12vh;
@@ -133,4 +175,20 @@
   }
 }
 
-
+@media screen and (max-width:1200px){
+  .main_box{
+    padding-top: 12vh;
+    background-image: url('/images/background5.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    &__content_area{
+        padding: 4vh 8vh 0 8vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+  }
+}
