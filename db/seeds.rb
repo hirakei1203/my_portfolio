@@ -16,7 +16,7 @@ User.create!(
 Product.create!(
   name: "Job Log",
   image: "Job_Log_image.png",
-  address: "http://13.115.135.138/",
+  address: "https://app-hk1.herokuapp.com/",
   description: "ブログ風業務改善アプリです。初アプリです！",
   status_id: 1,
   language: "Ruby",
