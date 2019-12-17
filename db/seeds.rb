@@ -14,21 +14,31 @@ User.create!(
 )
 
 Product.create!(
+  name: "Job Log",
+  image: "Job Log_image",
+  address: "http://13.115.135.138/",
+  description: "ブログ風業務改善アプリです。初アプリです！",
+  status_id: 1,
+  language: "Ruby",
+  technique: "Ruby on rails, MySQL, heroku"
+)
+
+Product.create!(
   name: "メルカリコピーサイト",
-  image: "https://gyazo.com/ae9f791a35b7a1646780373a0fc4d9b8",
+  image: "page_mercari2",
   address: "http://13.115.135.138/",
   description: "メルカリのコピーサイトです。6人チームで作りました",
   status_id: 1,
   language: "Ruby",
-  technique: "Ruby on rails"
+  technique: "Ruby on rails, MySQL, AWS"
 )
 
 Product.create!(
   name: "Rintaro顔認識アプリ",
-  image: "https://gyazo.com/59b52bbb1ffc77b4380683e4c9d396a5",
+  image: "Rin_app_image",
   address: "https://tranquil-gorge-10782.herokuapp.com/",
   description: "OpenCVを使用した機械学習による顔認識アプリです",
   status_id: 1,
   language: "Python",
-  technique: "Flask, Anaconda"
+  technique: "Flask, Anaconda, heroku"
 )

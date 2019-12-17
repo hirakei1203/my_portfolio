@@ -57,7 +57,7 @@
   height: 40vh;
   width: 45vh;
   background-color: lightgreen;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-top: 3vh;
   &__title{
   }
@@ -74,6 +74,38 @@
   &__title{
   }
 }
+
+
+.content-box{
+  &__title{
+    margin-top: 1vh;
+  }
+  &__language{
+    margin-top: 2vh;
+  }
+  &__environment{
+    margin-top: 2vh;
+  }
+  &__image{
+    margin-top: 2vh;
+  }
+  &__description{
+    margin-top: 2vh;
+  }
+  &__address{
+    margin-top: 3vh;
+    &__link{
+    text-decoration: none;
+    }
+  }
+}
+
+.content-box2{
+  &__title{
+    margin-top: 1vh;
+  }
+}
+
 
 .footer_box{
   height: 12vh;
@@ -132,31 +164,3 @@
     opacity:0.1;
   }
 }
-
-.content-box{
-  &__title{
-
-
-  }
-  &__language{
-    margin-top: 2vh;
-  }
-  &__environment{
-    margin-top: 2vh;
-  }
-  &__image{
-    margin-top: 2vh;
-  }
-  &__description{
-    margin-top: 2vh;
-  }
-  &__address{
-    margin-top: 4vh;
-    &__link{
-    text-decoration: none;
-    }
-  }
-
-}
-
-
