@@ -15,7 +15,7 @@ User.create!(
 
 Product.create!(
   name: "Job Log",
-  image: "Job Log_image",
+  image: "Job Log_image.png",
   address: "http://13.115.135.138/",
   description: "ブログ風業務改善アプリです。初アプリです！",
   status_id: 1,
@@ -25,7 +25,7 @@ Product.create!(
 
 Product.create!(
   name: "メルカリコピーサイト",
-  image: "page_mercari2",
+  image: "page_mercari2.png",
   address: "http://13.115.135.138/",
   description: "メルカリのコピーサイトです。6人チームで作りました",
   status_id: 1,
@@ -35,7 +35,7 @@ Product.create!(
 
 Product.create!(
   name: "Rintaro顔認識アプリ",
-  image: "Rin_app_image",
+  image: "Rin_app_image.png",
   address: "https://tranquil-gorge-10782.herokuapp.com/",
   description: "OpenCVを使用した機械学習による顔認識アプリです",
   status_id: 1,
