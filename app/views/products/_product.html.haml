@@ -7,11 +7,11 @@
   .content-box__environment
     = "その他技術: #{product.technique}"
   .content-box__image
-    = 
+    = product.image
   .content-box__description
-
+    = "#{product.description}"
   .content-box_address
-
-  .
+    = link_to "#{product.address}", "#{product.address}", target: :_blank 
+  
   
 
