@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
     # status_id:1を公開、とする予定
     # 公開するポートフォリオのみを選択するか
     @products = Product.where(status_id:1)
-
+    
   end
 
 end
