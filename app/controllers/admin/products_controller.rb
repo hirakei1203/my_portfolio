@@ -1,5 +1,7 @@
 class Admin::ProductsController < ApplicationController
-  before_action :if_not_admin, only: [:create, :destroy]
+  before_action :if_not_admin, only: [:create, :destroy, :new, :edit]
+
+  # 以下作品を編集するためのアクション郡です。後日実装予定
 
   def new
   end
@@ -8,6 +10,9 @@ class Admin::ProductsController < ApplicationController
   end
 
   def destroy
+  end
+
+  def edit
   end
 
 

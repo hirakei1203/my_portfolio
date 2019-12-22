@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create!(
-  email: "hirakei@yahoo.jp",
+  email: "hirakei@gmail.com",
   password: "mercari62A",
   password_confirmation: "mercari62A",
   admin: true
@@ -27,7 +27,7 @@ Product.create!(
   name: "メルカリコピーサイト",
   image: "page_mercari2.png",
   address: "http://13.115.135.138/",
-  description: "メルカリのコピーサイトです。6人チームで作りました!",
+  description: "メルカリのコピーサイトです。6人チームで作りました! (ID: 62_mercari_a, Pass: 62a)",
   status_id: 1,
   language: "Ruby",
   technique: "Ruby on rails, MySQL, AWS"
