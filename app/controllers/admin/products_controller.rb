@@ -24,7 +24,7 @@ class Admin::ProductsController < ApplicationController
 
   private
   def product_params
-    params.permit(:)
+    params.permit(:name, :image, :address, :decsription, :status_id, :language, :technique)
   end
 
   def if_not_admin
