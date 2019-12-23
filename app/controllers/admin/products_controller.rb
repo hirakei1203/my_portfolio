@@ -7,6 +7,7 @@ class Admin::ProductsController < ApplicationController
   end
 
   def create
+    Product.save(product_params)
   end
 
   def destroy
@@ -19,6 +20,7 @@ class Admin::ProductsController < ApplicationController
 
   private
   def product_params
+    
   end
 
   def if_not_admin
