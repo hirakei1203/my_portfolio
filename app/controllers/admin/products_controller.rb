@@ -20,7 +20,7 @@ class Admin::ProductsController < ApplicationController
 
   private
   def product_params
-    
+    params.permit
   end
 
   def if_not_admin
