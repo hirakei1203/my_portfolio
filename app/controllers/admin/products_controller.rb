@@ -7,17 +7,22 @@ class Admin::ProductsController < ApplicationController
   end
 
   def create
-    if Product.save(product_params)
-      render xxx
-    elsif
-      マイページに戻る
-    end
+    # if Product.save(product_params)
+    #   render xxx
+    # elsif
+    #   マイページに戻る
+    # end
   end
 
   def destroy
+    Product.delete?
+    # ミスった場合のロジックもメルカリを参考に
   end
 
   def edit
+  end
+
+  def update
   end
 
 

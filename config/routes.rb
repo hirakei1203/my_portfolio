@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'products#index'
 
   namespace :admin do
-    resources :products, only: [:new, :create, :edit, :destroy]
+    resources :products, only: [:new, :create, :edit, :destroy, :update]
   end
   
 end
