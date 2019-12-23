@@ -7,7 +7,11 @@ class Admin::ProductsController < ApplicationController
   end
 
   def create
-    Product.save(product_params)
+    if Product.save(product_params)
+      render xxx
+    elsif
+      マイページに戻る
+    end
   end
 
   def destroy
@@ -20,7 +24,7 @@ class Admin::ProductsController < ApplicationController
 
   private
   def product_params
-    params.permit
+    params.permit(:)
   end
 
   def if_not_admin
