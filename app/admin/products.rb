@@ -20,8 +20,13 @@ ActiveAdmin.register Product do
   form do |f|
     f.inputs do
       f.input :name
+      f.input :fontawesome
       f.input :image
       f.input :address
+      f.input :description
+      f.input :status_id
+      f.input :language
+      f.input :technique
     end
     f.actions
   end

@@ -42,4 +42,4 @@
 #   language: "Python",
 #   technique: "Flask, Anaconda, heroku"
 # )
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+AdminUser.create!(email: 'admin@example.com', password: 'mercari62A', password_confirmation: 'password') if Rails.env.development?
