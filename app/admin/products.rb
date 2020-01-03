@@ -15,4 +15,16 @@ ActiveAdmin.register Product do
   #   permitted
   # end
   
+  form partial: 'form'
+
+  form do |f|
+    f.inputs do
+      f.input :name
+      f.input :image
+      f.input :address
+    end
+    f.actions
+  end
+
+
 end
