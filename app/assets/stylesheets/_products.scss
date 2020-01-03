@@ -51,20 +51,22 @@
   padding-top: 12vh;
   background-image: url('/images/background5.jpg');
   background-size: cover;
-  height: 800px;
+  height: 850px;
   width: 100%;
   &__content_area{
-      padding: 4vh 8vh 0 8vh;
+      padding: 4vh 8vh 1vh 8vh;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row-reverse;
       justify-content: space-between;
-      font-family: 
+      font-family: sans-serif;
+      font-size: 15px;
+      color: black;
   }
 }
 
 .content-box{
-  height: 40vh;
+  height: 45vh;
   width: 45vh;
   background-color: lightgreen;
   opacity: 0.8;
