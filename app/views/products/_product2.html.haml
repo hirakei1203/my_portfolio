@@ -1,0 +1,18 @@
+
+- products.each do |product|
+  .content-box2
+    .content-box2__title
+      = "タイトル: #{product.name}"
+    .content-box2__language
+      = "使用言語: #{product.language}"
+    .content-box2__environment
+      = "その他技術: #{product.technique}"
+    .content-box2__image
+      = link_to "#{product.address}", target: :_blank, class: "content-box2__address__link" do
+        = image_tag("/#{product.image}", size: '268x140', class: "content-box2__image__picture")
+    .content-box2__description
+      = "#{product.description}"
+    
+  
+  
+

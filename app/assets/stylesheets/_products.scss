@@ -51,41 +51,26 @@
   padding-top: 12vh;
   background-image: url('/images/background5.jpg');
   background-size: cover;
-  height: 800px;
+  height: 850px;
   width: 100%;
   &__content_area{
-      padding: 4vh 8vh 0 8vh;
+      padding: 4vh 8vh 1vh 8vh;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row-reverse;
       justify-content: space-between;
+      font-family: sans-serif;
+      font-size: 15px;
+      color: black;
   }
 }
 
 .content-box{
-  height: 40vh;
+  height: 45vh;
   width: 45vh;
   background-color: lightgreen;
   opacity: 0.8;
   margin-top: 3vh;
-  &__title{
-  }
-}
-
-.content-box2{
-  height: 45vh;
-  width: 45vh;
-  background-color: lightcoral;
-  opacity: 0.5;
-  margin-top: 3vh;
-  transition: 0.8s;
-  opacity: 0;
-  &__title{
-  }
-}
-
-
-.content-box{
   &__title{
     margin-top: 1vh;
   }
@@ -111,8 +96,34 @@
 }
 
 .content-box2{
+  height: 45vh;
+  width: 45vh;
+  background-color: lightcoral;
+  opacity: 0.5;
+  margin-top: 3vh;
+  transition: 0.8s;
+  opacity: 0;
   &__title{
     margin-top: 1vh;
+  }
+  &__language{
+    margin-top: 2vh;
+  }
+  &__environment{
+    margin-top: 2vh;
+  }
+  &__image{
+    margin-top: 2vh;
+    text-align: center;
+  }
+  &__description{
+    margin-top: 2vh;
+  }
+  &__address{
+    margin-top: 3vh;
+    &__link{
+    text-decoration: none;
+    }
   }
 }
 
