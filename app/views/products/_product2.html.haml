@@ -1,0 +1,17 @@
+
+.content-box2
+  .content-box2__title
+    = "タイトル: #{product2.name}"
+  .content-box2__language
+    = "使用言語: #{product2.language}"
+  .content-box2__environment
+    = "その他技術: #{product2.technique}"
+  .content-box2__image
+    = link_to "#{product2.address}", target: :_blank, class: "content-box__address__link" do
+      = image_tag("/#{product2.image}", size: '268x140', class: "content-box__image__picture")
+  .content-box2__description
+    = "#{product2.description}"
+    
+  
+  
+
