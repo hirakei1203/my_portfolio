@@ -8,16 +8,12 @@
     = render @products
     -# 部分テンプレート先に、インスタンス変数導入後にeach構文を入れること
 
-    -# = render 'layouts/content'
 
-    -# = render 'layouts/content'
 
     = render partial: 'product2', locals: { products: @products_second }
 
     = render 'layouts/content2'
 
-    = render 'layouts/content2'
-
-    -# = render 'layouts/content2'
+    = render 'layouts/content2''
 
 = render 'layouts/footer'
