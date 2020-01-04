@@ -42,4 +42,4 @@
 #   language: "Python",
 #   technique: "Flask, Anaconda, heroku"
 # )
-AdminUser.create!(email: 'hirakei@gmail.com', password: 'mercari62A', password_confirmation: 'password')
+AdminUser.create!(email: 'hirakei@gmail.com', password: 'mercari62A', password_confirmation: 'mercari62A')
