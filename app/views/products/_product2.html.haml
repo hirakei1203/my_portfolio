@@ -12,6 +12,9 @@
         = image_tag("/#{product.image}", size: '268x140', class: "content-box2__image__picture")
     .content-box2__description
       = "#{product.description}"
+    .content-box2__github
+      = link_to "#{product.fontawesome}", target: :_blank, class: "each-github-link" do
+        To GitHub
     
   
   

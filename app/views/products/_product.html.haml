@@ -11,9 +11,9 @@
       = image_tag("/#{product.image}", size: '268x140', class: "content-box__image__picture")
   .content-box__description
     = "#{product.description}"
-  .content-boc__github
-    = link_to "#{product.fontawesome}", target: :_blank, class: "content-box__address__link" do
-      GitHubへ
+  .content-box__github
+    = link_to "#{product.fontawesome}", target: :_blank, class: "each-github-link" do
+      To GitHub
   
   
 
