@@ -1,16 +1,17 @@
 
 .content-box3
-  .content-box3__qiita-title
-    Qiita記事
-  .content-box3__first-article
-    = link_to "https://qiita.com/hirakei1203/items/d7e03040a4f899d374c1", target: :_blank, class: "each-github-link" do
-      Rails+DeviseへのOmniauthの導入（ざっくり仕組み、CSRF対策、単体テスト含む）
-  .content-box3__second-article
-    = link_to "https://qiita.com/hirakei1203/items/ffae00fe0748f975996b", target: :_blank, class: "each-github-link" do
-      Ruby on railsとDjangoの違いまとめ~基礎編~
-  .content-box3__third-article
-    = link_to "https://qiita.com/hirakei1203/items/c93b44500e265390c2a9", target: :_blank, class: "each-github-link" do
-      スクラムマスター体験談~理想のチーム論と学んだこと~
-  
+  .content-box3__title
+    投稿したQiita記事
+  %ul
+    %li.content-box3__article
+      = link_to "https://qiita.com/hirakei1203/items/d7e03040a4f899d374c1", target: :_blank, class: "qiita-link" do
+        Rails+DeviseへのOmniauthの導入（ざっくり仕組み、CSRF対策、単体テスト含む）
+    %li.content-box3__article
+      = link_to "https://qiita.com/hirakei1203/items/ffae00fe0748f975996b", target: :_blank, class: "qiita-link" do
+        Ruby on railsとDjangoの違いまとめ~基礎編~
+    %li.content-box3__
+      = link_to "https://qiita.com/hirakei1203/items/c93b44500e265390c2a9", target: :_blank, class: "qiita-link" do
+        スクラムマスター体験談~理想のチーム論と学んだこと~
+
   
 

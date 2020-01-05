@@ -72,6 +72,7 @@
 }
 
 .content-box{
+  padding-left: 1vh;
   height: 45vh;
   width: 48vh;
   background-color: lightgreen;
@@ -109,6 +110,7 @@
 }
 
 .content-box2{
+  padding-left: 1vh;
   height: 45vh;
   width: 48vh;
   background-color: lightcoral;
@@ -151,6 +153,7 @@
 }
 
 .content-box3{
+  padding-left: 1vh;
   height: 45vh;
   width: 48vh;
   background-color: lightseagreen;
@@ -162,32 +165,13 @@
   &__title{
     margin-top: 1vh;
   }
-  &__language{
-    margin-top: 1vh;
-  }
-  &__environment{
-    margin-top: 1vh;
-  }
-  &__image{
-    margin-top: 2vh;
-    text-align: center;
-  }
-  &__description{
-    margin-top: 2vh;
-  }
-  &__address{
-    margin-top: 3vh;
-    &__link{
-    text-decoration: none;
-    }
-  }
-  &__github{
-    margin-bottom: 2vh;
-    position: absolute;
-    bottom: 0;
-    .each-github-link{
-      // text-decoration: none;
-      color: navy;
+  ul{
+    list-style: none;
+    li{
+      padding-top: 1vh;
+      .qiita-link{
+        color: navy;
+      }
     }
   }
 }
