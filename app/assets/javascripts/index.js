@@ -12,6 +12,15 @@ $(function(){
     }
   })
 
+  $(window).scroll(function(){  
+    let imgPos = $('.content-box3').offset().top;
+    let scroll = $(window).scrollTop();
+    let windowHeight = $(window).height();
+    if (scroll > imgPos - windowHeight + windowHeight/5){
+      $('.content-box3').css("opacity", 0.8);
+    }
+  })
+
   // 一定量をスクロールした際にheaderを隠す
   $(window).scroll(function(){  
     let menuHeight = $('.header_box').height();

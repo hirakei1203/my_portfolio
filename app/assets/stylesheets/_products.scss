@@ -150,6 +150,47 @@
   }
 }
 
+.content-box3{
+  height: 45vh;
+  width: 48vh;
+  background-color: lightseagreen;
+  opacity: 0.8;
+  margin-top: 3vh;
+  transition: 0.8s;
+  opacity: 0;
+  position: relative;
+  &__title{
+    margin-top: 1vh;
+  }
+  &__language{
+    margin-top: 1vh;
+  }
+  &__environment{
+    margin-top: 1vh;
+  }
+  &__image{
+    margin-top: 2vh;
+    text-align: center;
+  }
+  &__description{
+    margin-top: 2vh;
+  }
+  &__address{
+    margin-top: 3vh;
+    &__link{
+    text-decoration: none;
+    }
+  }
+  &__github{
+    margin-bottom: 2vh;
+    position: absolute;
+    bottom: 0;
+    .each-github-link{
+      // text-decoration: none;
+      color: navy;
+    }
+  }
+}
 
 .footer_box{
   height: 12vh;
