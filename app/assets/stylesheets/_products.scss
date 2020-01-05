@@ -73,7 +73,7 @@
 
 .content-box{
   height: 45vh;
-  width: 45vh;
+  width: 48vh;
   background-color: lightgreen;
   opacity: 0.8;
   margin-top: 3vh;
@@ -81,10 +81,10 @@
     margin-top: 1vh;
   }
   &__language{
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
   &__environment{
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
   &__image{
     margin-top: 2vh;
@@ -103,7 +103,7 @@
 
 .content-box2{
   height: 45vh;
-  width: 45vh;
+  width: 48vh;
   background-color: lightcoral;
   opacity: 0.5;
   margin-top: 3vh;
@@ -113,10 +113,10 @@
     margin-top: 1vh;
   }
   &__language{
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
   &__environment{
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
   &__image{
     margin-top: 2vh;
@@ -206,6 +206,33 @@
         flex-wrap: wrap;
         flex-direction: row-reverse;
         justify-content: space-between;
+        font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width:500px){
+  .header_box{
+    &__title{
+      font-size: 24px;
+    }
+  }
+
+  .main_box{
+    padding-top: 12vh;
+    background-image: url('/images/background5.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    &__content_area{
+        margin: 0 auto;
+        padding: 4vh 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        font-size: 12px;
     }
   }
 }
