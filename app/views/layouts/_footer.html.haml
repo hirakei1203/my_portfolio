@@ -13,5 +13,6 @@
   .footer_box__right
     = link_to admin_root_path do
       管理者用ログインページ
-    -# = link_to new_user_registration_path do
-      管理者用ログインページ
+    :javascript
+      var Kairos3Tracker = "khirano";
+    %script{:charset => "utf-8", :src => "//c.k3r.jp", :type => "text/javascript"}
